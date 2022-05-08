@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="sty-ep-fp.css">
+</head>
+<body>
+    <header id="main-heading">
+        <div class="container">       
+        <h1>Samarthya</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How-to</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <section id="block-2">
+        <section id="main">
+    <p>Education Related Guidance</p>
+    <div class="button">
+    <input type="button" name="" id="sch" value="Scholarships" onclick="myFunction1()">
+    <br>
+    <input type="button" name="" id="exm" value="Examination" onclick="myFunction2()">
+    <br>
+    <input type="button" name="" id="pwd" value="For Specially Abled" onclick="myFunction3()">
+    <br>
+    <input type="button" name="" id="pwd" value="Trainers" onclick="myFunction7()">
+    </div>
+        </section>
+    
+    <aside id="secondary-1">
+    <p>Career Related Guidance</p>
+        <div class="button">
+            <a href="#">
+            <input type="button" name="" id="j" value="Jobs" onclick="myFunction4()">
+        </a>
+        <br>
+        <a href="#">
+            <input type="button" name="" id="j" value="Jobs for Specially Abled" onclick="myFunction5()">
+        </a>
+        <br>
+        <a href="#">
+            <input type="button" name="" id="j" value="Trainers" onclick="myFunction6()">
+        </a>
+        </div>
+    </aside>
+</section>
+    </div>
+
+    <section id="how-to">
+    <div class="container">
+    <h2>Services</h2>
+    <ul>
+        <div class="block">
+        <h3>Scholarships</h3>
+        
+            <p></p><br>
+        </div>
+        <div class="block">
+        <h3>Career</h3>
+        
+            <p> </p>
+        </div> 
+        <div class="block">
+        <h3>For Persons with Disabilitiesn</h3>
+            <p> </p>
+    </ul>
+    </div>
+    </section>
+
+    <h2></h2>
+    <ul>
+        <h3> </h3>
+            <br>
+            
+
+            
+        <h3></h3>
+            <br>
+            
+        <h3></h3>
+            <br>
+
+        <h3></h3>
+            <br>
+            
+
+    </ul>
+
+    <script src="homepage.js"></script>
+
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://chats.landbot.io/v3/H-1237595-97Z8XUMDMQ5I9Y5M/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+</body>
+</html>
