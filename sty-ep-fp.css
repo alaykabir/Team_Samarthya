@@ -1,0 +1,145 @@
+body{
+    margin: 10px;
+}
+
+#main-heading{
+    padding-left: 70px;
+}
+.container{
+    width:90%;
+    margin:5px;
+    overflow:hidden;
+
+}
+
+#navbar{
+    background-color:coral;
+    color:aliceblue;
+    }
+
+#navbar ul{
+    padding:0;
+    list-style:none ;
+    float:right;
+}    
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:white;
+    text-decoration:none;
+    font-size: 18px;
+    padding-right: 15px;
+
+}
+
+#navbar a:hover{
+    cursor: pointer;
+}
+
+#main{
+    padding-left: 27px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width:50%;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    float: left;
+    background-color:linen;
+    line-height: 50px;
+    border-radius: 25px;
+
+}
+
+#secondary-1{
+    float: right;
+}
+
+#secondary-1 p{
+    background-color: linen;
+    font-size: 30px;
+    margin-left: 108px;
+}
+
+.button input[type="button"]{
+    margin-left: 120px;    
+    font-size: 20px;
+    cursor:pointer;
+    height: 48px;
+    width: 220px;
+    position:relative;
+    top: 50%;
+    background-color: crimson;
+    color:ivory;
+    border-radius: 10px;
+}
+
+.button input[type="button"]:hover{
+    background-color:indigo;
+}
+
+
+#about{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    width:50%;
+    font-family: Cambria;
+    font-size: 20px;
+    float: left;
+    
+    line-height: 50px;
+}
+
+#about h2{
+    border-radius: 25px;
+    padding-left: 45%;
+    background-color: beige;
+}
+
+#image{
+    float: right;
+}
+
+
+
+.block{
+    float: left;
+    width:33.33%;
+    border: 1px solid #ccc;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container-2{
+    width:400px;
+    height:300px;
+    margin-top:60px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    animation: slide 20s infinite;
+    background:cover;
+}
+
+@keyframes slide{
+    25%{
+        background:url(Birthday.jpg)
+        
+    }
+    50%{
+        background:url(Big\ event.jpg)
+    }
+    75%{
+        background:url(Corporate\ event.jpg)
+    }
+    100%{
+        background:url(Wedding.jpg)
+    }
+    
+}
+
